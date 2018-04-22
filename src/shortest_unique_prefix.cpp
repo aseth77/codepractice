@@ -115,7 +115,7 @@ int main(int argc, char **argv)
   vector<string> input;
   vector<string> output;
 
-  for(unsigned i = 0; i < argc; i++) {
+  for(unsigned i = 1; i < argc; i++) {
     input.push_back(argv[i]);
   }
   
